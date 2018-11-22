@@ -1,0 +1,6 @@
+setup.py
+opennn.egg-info/PKG-INFO
+opennn.egg-info/SOURCES.txt
+opennn.egg-info/dependency_links.txt
+opennn.egg-info/not-zip-safe
+opennn.egg-info/top_level.txt

@@ -1,0 +1,428 @@
+The system is: Windows - 10.0.17134 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Microsoft (R) Build Engine versi�n 15.7.180.61344 para .NET Framework
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+Compilaci�n iniciada a las 21/11/2018 9:18:14.
+Proyecto "C:\Users\Artelnics2018\Documents\neural-designer\opennn\pybind\opennn\build\temp.win-amd64-3.7\Release\CMakeFiles\3.12.3\CompilerIdC\CompilerIdC.vcxproj" en nodo 1 (destinos predeterminados).
+PrepareForBuild:
+  Creando directorio "Debug\".
+  Creando directorio "Debug\CompilerIdC.tlog\".
+InitializeBuildStatus:
+  Se crear� "Debug\CompilerIdC.tlog\unsuccessfulbuild" porque se especific� "AlwaysCreate".
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428\bin\HostX86\x64\CL.exe /c /nologo /W0 /WX- /diagnostics:classic /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc141.pdb" /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+  CMakeCCompilerId.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428\bin\HostX86\x64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X64 Debug\CMakeCCompilerId.obj
+  CompilerIdC.vcxproj -> C:\Users\Artelnics2018\Documents\neural-designer\opennn\pybind\opennn\build\temp.win-amd64-3.7\Release\CMakeFiles\3.12.3\CompilerIdC\.\CompilerIdC.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_C_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428\bin\Hostx86\x64\cl.exe
+FinalizeBuildStatus:
+  Se eliminar� el archivo "Debug\CompilerIdC.tlog\unsuccessfulbuild".
+  Aplicando tarea Touch a "Debug\CompilerIdC.tlog\CompilerIdC.lastbuildstate".
+Compilaci�n del proyecto terminada "C:\Users\Artelnics2018\Documents\neural-designer\opennn\pybind\opennn\build\temp.win-amd64-3.7\Release\CMakeFiles\3.12.3\CompilerIdC\CompilerIdC.vcxproj" (destinos predeterminados).
+
+Compilaci�n correcta.
+    0 Advertencia(s)
+    0 Errores
+
+Tiempo transcurrido 00:00:00.81
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+
+The C compiler identification is MSVC, found in "C:/Users/Artelnics2018/Documents/neural-designer/opennn/pybind/opennn/build/temp.win-amd64-3.7/Release/CMakeFiles/3.12.3/CompilerIdC/CompilerIdC.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler:  
+Build flags: ;-DVERSION_INFO=\"0.0.1\"
+Id flags:  
+
+The output was:
+0
+Microsoft (R) Build Engine versi�n 15.7.180.61344 para .NET Framework
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+Compilaci�n iniciada a las 21/11/2018 9:18:15.
+Proyecto "C:\Users\Artelnics2018\Documents\neural-designer\opennn\pybind\opennn\build\temp.win-amd64-3.7\Release\CMakeFiles\3.12.3\CompilerIdCXX\CompilerIdCXX.vcxproj" en nodo 1 (destinos predeterminados).
+PrepareForBuild:
+  Creando directorio "Debug\".
+  Creando directorio "Debug\CompilerIdCXX.tlog\".
+InitializeBuildStatus:
+  Se crear� "Debug\CompilerIdCXX.tlog\unsuccessfulbuild" porque se especific� "AlwaysCreate".
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428\bin\HostX86\x64\CL.exe /c /nologo /W0 /WX- /diagnostics:classic /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc141.pdb" /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+  CMakeCXXCompilerId.cpp
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428\bin\HostX86\x64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdCXX.lib" /MACHINE:X64 Debug\CMakeCXXCompilerId.obj
+  CompilerIdCXX.vcxproj -> C:\Users\Artelnics2018\Documents\neural-designer\opennn\pybind\opennn\build\temp.win-amd64-3.7\Release\CMakeFiles\3.12.3\CompilerIdCXX\.\CompilerIdCXX.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_CXX_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428\bin\Hostx86\x64\cl.exe
+FinalizeBuildStatus:
+  Se eliminar� el archivo "Debug\CompilerIdCXX.tlog\unsuccessfulbuild".
+  Aplicando tarea Touch a "Debug\CompilerIdCXX.tlog\CompilerIdCXX.lastbuildstate".
+Compilaci�n del proyecto terminada "C:\Users\Artelnics2018\Documents\neural-designer\opennn\pybind\opennn\build\temp.win-amd64-3.7\Release\CMakeFiles\3.12.3\CompilerIdCXX\CompilerIdCXX.vcxproj" (destinos predeterminados).
+
+Compilaci�n correcta.
+    0 Advertencia(s)
+    0 Errores
+
+Tiempo transcurrido 00:00:00.68
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+
+The CXX compiler identification is MSVC, found in "C:/Users/Artelnics2018/Documents/neural-designer/opennn/pybind/opennn/build/temp.win-amd64-3.7/Release/CMakeFiles/3.12.3/CompilerIdCXX/CompilerIdCXX.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: C:/Users/Artelnics2018/Documents/neural-designer/opennn/pybind/opennn/build/temp.win-amd64-3.7/Release/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_3f43d.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine versión 15.7.180.61344 para .NET Framework
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+Compilación iniciada a las 21/11/2018 9:18:16.
+Proyecto "C:\Users\Artelnics2018\Documents\neural-designer\opennn\pybind\opennn\build\temp.win-amd64-3.7\Release\CMakeFiles\CMakeTmp\cmTC_3f43d.vcxproj" en nodo 1 (destinos predeterminados).
+PrepareForBuild:
+  Creando directorio "cmTC_3f43d.dir\Debug\".
+  Creando directorio "C:\Users\Artelnics2018\Documents\neural-designer\opennn\pybind\opennn\build\temp.win-amd64-3.7\Release\CMakeFiles\CMakeTmp\Debug\".
+  Creando directorio "cmTC_3f43d.dir\Debug\cmTC_3f43d.tlog\".
+InitializeBuildStatus:
+  Se creará "cmTC_3f43d.dir\Debug\cmTC_3f43d.tlog\unsuccessfulbuild" porque se especificó "AlwaysCreate".
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428\bin\HostX86\x64\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3f43d.dir\Debug\\" /Fd"cmTC_3f43d.dir\Debug\vc141.pdb" /Gd /TC /FC /errorReport:queue "C:\Users\Artelnics2018\Documents\neural-designer\opennn\pybind\opennn\build\temp.win-amd64-3.7\Release\CMakeFiles\CMakeTmp\testCCompiler.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.14.26433 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3f43d.dir\Debug\\" /Fd"cmTC_3f43d.dir\Debug\vc141.pdb" /Gd /TC /FC /errorReport:queue "C:\Users\Artelnics2018\Documents\neural-designer\opennn\pybind\opennn\build\temp.win-amd64-3.7\Release\CMakeFiles\CMakeTmp\testCCompiler.c"
+  testCCompiler.c
+  
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428\bin\HostX86\x64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Artelnics2018\Documents\neural-designer\opennn\pybind\opennn\build\temp.win-amd64-3.7\Release\CMakeFiles\CMakeTmp\Debug\cmTC_3f43d.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Artelnics2018/Documents/neural-designer/opennn/pybind/opennn/build/temp.win-amd64-3.7/Release/CMakeFiles/CMakeTmp/Debug/cmTC_3f43d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Artelnics2018/Documents/neural-designer/opennn/pybind/opennn/build/temp.win-amd64-3.7/Release/CMakeFiles/CMakeTmp/Debug/cmTC_3f43d.lib" /MACHINE:X64  /machine:x64 cmTC_3f43d.dir\Debug\testCCompiler.obj
+  cmTC_3f43d.vcxproj -> C:\Users\Artelnics2018\Documents\neural-designer\opennn\pybind\opennn\build\temp.win-amd64-3.7\Release\CMakeFiles\CMakeTmp\Debug\cmTC_3f43d.exe
+FinalizeBuildStatus:
+  Se eliminará el archivo "cmTC_3f43d.dir\Debug\cmTC_3f43d.tlog\unsuccessfulbuild".
+  Aplicando tarea Touch a "cmTC_3f43d.dir\Debug\cmTC_3f43d.tlog\cmTC_3f43d.lastbuildstate".
+Compilación del proyecto terminada "C:\Users\Artelnics2018\Documents\neural-designer\opennn\pybind\opennn\build\temp.win-amd64-3.7\Release\CMakeFiles\CMakeTmp\cmTC_3f43d.vcxproj" (destinos predeterminados).
+
+Compilación correcta.
+    0 Advertencia(s)
+    0 Errores
+
+Tiempo transcurrido 00:00:01.06
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: C:/Users/Artelnics2018/Documents/neural-designer/opennn/pybind/opennn/build/temp.win-amd64-3.7/Release/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_77bc4.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine versión 15.7.180.61344 para .NET Framework
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+Compilación iniciada a las 21/11/2018 9:18:17.
+Proyecto "C:\Users\Artelnics2018\Documents\neural-designer\opennn\pybind\opennn\build\temp.win-amd64-3.7\Release\CMakeFiles\CMakeTmp\cmTC_77bc4.vcxproj" en nodo 1 (destinos predeterminados).
+PrepareForBuild:
+  Creando directorio "cmTC_77bc4.dir\Debug\".
+  Creando directorio "C:\Users\Artelnics2018\Documents\neural-designer\opennn\pybind\opennn\build\temp.win-amd64-3.7\Release\CMakeFiles\CMakeTmp\Debug\".
+  Creando directorio "cmTC_77bc4.dir\Debug\cmTC_77bc4.tlog\".
+InitializeBuildStatus:
+  Se creará "cmTC_77bc4.dir\Debug\cmTC_77bc4.tlog\unsuccessfulbuild" porque se especificó "AlwaysCreate".
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428\bin\HostX86\x64\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_77bc4.dir\Debug\\" /Fd"cmTC_77bc4.dir\Debug\vc141.pdb" /Gd /TC /FC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCCompilerABI.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.14.26433 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_77bc4.dir\Debug\\" /Fd"cmTC_77bc4.dir\Debug\vc141.pdb" /Gd /TC /FC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCCompilerABI.c"
+  CMakeCCompilerABI.c
+  
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428\bin\HostX86\x64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Artelnics2018\Documents\neural-designer\opennn\pybind\opennn\build\temp.win-amd64-3.7\Release\CMakeFiles\CMakeTmp\Debug\cmTC_77bc4.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Artelnics2018/Documents/neural-designer/opennn/pybind/opennn/build/temp.win-amd64-3.7/Release/CMakeFiles/CMakeTmp/Debug/cmTC_77bc4.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Artelnics2018/Documents/neural-designer/opennn/pybind/opennn/build/temp.win-amd64-3.7/Release/CMakeFiles/CMakeTmp/Debug/cmTC_77bc4.lib" /MACHINE:X64  /machine:x64 cmTC_77bc4.dir\Debug\CMakeCCompilerABI.obj
+  cmTC_77bc4.vcxproj -> C:\Users\Artelnics2018\Documents\neural-designer\opennn\pybind\opennn\build\temp.win-amd64-3.7\Release\CMakeFiles\CMakeTmp\Debug\cmTC_77bc4.exe
+FinalizeBuildStatus:
+  Se eliminará el archivo "cmTC_77bc4.dir\Debug\cmTC_77bc4.tlog\unsuccessfulbuild".
+  Aplicando tarea Touch a "cmTC_77bc4.dir\Debug\cmTC_77bc4.tlog\cmTC_77bc4.lastbuildstate".
+Compilación del proyecto terminada "C:\Users\Artelnics2018\Documents\neural-designer\opennn\pybind\opennn\build\temp.win-amd64-3.7\Release\CMakeFiles\CMakeTmp\cmTC_77bc4.vcxproj" (destinos predeterminados).
+
+Compilación correcta.
+    0 Advertencia(s)
+    0 Errores
+
+Tiempo transcurrido 00:00:00.72
+
+
+
+
+Detecting C [] compiler features compiled with the following output:
+Change Dir: C:/Users/Artelnics2018/Documents/neural-designer/opennn/pybind/opennn/build/temp.win-amd64-3.7/Release/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_df316.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine versión 15.7.180.61344 para .NET Framework
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+Compilación iniciada a las 21/11/2018 9:18:18.
+Proyecto "C:\Users\Artelnics2018\Documents\neural-designer\opennn\pybind\opennn\build\temp.win-amd64-3.7\Release\CMakeFiles\CMakeTmp\cmTC_df316.vcxproj" en nodo 1 (destinos predeterminados).
+PrepareForBuild:
+  Creando directorio "cmTC_df316.dir\Debug\".
+  Creando directorio "C:\Users\Artelnics2018\Documents\neural-designer\opennn\pybind\opennn\build\temp.win-amd64-3.7\Release\CMakeFiles\CMakeTmp\Debug\".
+  Creando directorio "cmTC_df316.dir\Debug\cmTC_df316.tlog\".
+InitializeBuildStatus:
+  Se creará "cmTC_df316.dir\Debug\cmTC_df316.tlog\unsuccessfulbuild" porque se especificó "AlwaysCreate".
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428\bin\HostX86\x64\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_df316.dir\Debug\\" /Fd"cmTC_df316.dir\Debug\vc141.pdb" /Gd /TC /FC /errorReport:queue "C:\Users\Artelnics2018\Documents\neural-designer\opennn\pybind\opennn\build\temp.win-amd64-3.7\Release\CMakeFiles\feature_tests.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.14.26433 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_df316.dir\Debug\\" /Fd"cmTC_df316.dir\Debug\vc141.pdb" /Gd /TC /FC /errorReport:queue "C:\Users\Artelnics2018\Documents\neural-designer\opennn\pybind\opennn\build\temp.win-amd64-3.7\Release\CMakeFiles\feature_tests.c"
+  feature_tests.c
+  
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428\bin\HostX86\x64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Artelnics2018\Documents\neural-designer\opennn\pybind\opennn\build\temp.win-amd64-3.7\Release\CMakeFiles\CMakeTmp\Debug\cmTC_df316.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Artelnics2018/Documents/neural-designer/opennn/pybind/opennn/build/temp.win-amd64-3.7/Release/CMakeFiles/CMakeTmp/Debug/cmTC_df316.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Artelnics2018/Documents/neural-designer/opennn/pybind/opennn/build/temp.win-amd64-3.7/Release/CMakeFiles/CMakeTmp/Debug/cmTC_df316.lib" /MACHINE:X64  /machine:x64 cmTC_df316.dir\Debug\feature_tests.obj
+  cmTC_df316.vcxproj -> C:\Users\Artelnics2018\Documents\neural-designer\opennn\pybind\opennn\build\temp.win-amd64-3.7\Release\CMakeFiles\CMakeTmp\Debug\cmTC_df316.exe
+FinalizeBuildStatus:
+  Se eliminará el archivo "cmTC_df316.dir\Debug\cmTC_df316.tlog\unsuccessfulbuild".
+  Aplicando tarea Touch a "cmTC_df316.dir\Debug\cmTC_df316.tlog\cmTC_df316.lastbuildstate".
+Compilación del proyecto terminada "C:\Users\Artelnics2018\Documents\neural-designer\opennn\pybind\opennn\build\temp.win-amd64-3.7\Release\CMakeFiles\CMakeTmp\cmTC_df316.vcxproj" (destinos predeterminados).
+
+Compilación correcta.
+    0 Advertencia(s)
+    0 Errores
+
+Tiempo transcurrido 00:00:00.76
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_variadic_macros
+Determining if the CXX compiler works passed with the following output:
+Change Dir: C:/Users/Artelnics2018/Documents/neural-designer/opennn/pybind/opennn/build/temp.win-amd64-3.7/Release/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_15f2b.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine versión 15.7.180.61344 para .NET Framework
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+Compilación iniciada a las 21/11/2018 9:18:19.
+Proyecto "C:\Users\Artelnics2018\Documents\neural-designer\opennn\pybind\opennn\build\temp.win-amd64-3.7\Release\CMakeFiles\CMakeTmp\cmTC_15f2b.vcxproj" en nodo 1 (destinos predeterminados).
+PrepareForBuild:
+  Creando directorio "cmTC_15f2b.dir\Debug\".
+  Creando directorio "C:\Users\Artelnics2018\Documents\neural-designer\opennn\pybind\opennn\build\temp.win-amd64-3.7\Release\CMakeFiles\CMakeTmp\Debug\".
+  Creando directorio "cmTC_15f2b.dir\Debug\cmTC_15f2b.tlog\".
+InitializeBuildStatus:
+  Se creará "cmTC_15f2b.dir\Debug\cmTC_15f2b.tlog\unsuccessfulbuild" porque se especificó "AlwaysCreate".
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428\bin\HostX86\x64\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D "VERSION_INFO=\"0.0.1\"" /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_15f2b.dir\Debug\\" /Fd"cmTC_15f2b.dir\Debug\vc141.pdb" /Gd /TP /FC /errorReport:queue "C:\Users\Artelnics2018\Documents\neural-designer\opennn\pybind\opennn\build\temp.win-amd64-3.7\Release\CMakeFiles\CMakeTmp\testCXXCompiler.cxx"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.14.26433 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D "VERSION_INFO=\"0.0.1\"" /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_15f2b.dir\Debug\\" /Fd"cmTC_15f2b.dir\Debug\vc141.pdb" /Gd /TP /FC /errorReport:queue "C:\Users\Artelnics2018\Documents\neural-designer\opennn\pybind\opennn\build\temp.win-amd64-3.7\Release\CMakeFiles\CMakeTmp\testCXXCompiler.cxx"
+  testCXXCompiler.cxx
+  
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428\bin\HostX86\x64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Artelnics2018\Documents\neural-designer\opennn\pybind\opennn\build\temp.win-amd64-3.7\Release\CMakeFiles\CMakeTmp\Debug\cmTC_15f2b.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Artelnics2018/Documents/neural-designer/opennn/pybind/opennn/build/temp.win-amd64-3.7/Release/CMakeFiles/CMakeTmp/Debug/cmTC_15f2b.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Artelnics2018/Documents/neural-designer/opennn/pybind/opennn/build/temp.win-amd64-3.7/Release/CMakeFiles/CMakeTmp/Debug/cmTC_15f2b.lib" /MACHINE:X64  /machine:x64 cmTC_15f2b.dir\Debug\testCXXCompiler.obj
+  cmTC_15f2b.vcxproj -> C:\Users\Artelnics2018\Documents\neural-designer\opennn\pybind\opennn\build\temp.win-amd64-3.7\Release\CMakeFiles\CMakeTmp\Debug\cmTC_15f2b.exe
+FinalizeBuildStatus:
+  Se eliminará el archivo "cmTC_15f2b.dir\Debug\cmTC_15f2b.tlog\unsuccessfulbuild".
+  Aplicando tarea Touch a "cmTC_15f2b.dir\Debug\cmTC_15f2b.tlog\cmTC_15f2b.lastbuildstate".
+Compilación del proyecto terminada "C:\Users\Artelnics2018\Documents\neural-designer\opennn\pybind\opennn\build\temp.win-amd64-3.7\Release\CMakeFiles\CMakeTmp\cmTC_15f2b.vcxproj" (destinos predeterminados).
+
+Compilación correcta.
+    0 Advertencia(s)
+    0 Errores
+
+Tiempo transcurrido 00:00:00.82
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: C:/Users/Artelnics2018/Documents/neural-designer/opennn/pybind/opennn/build/temp.win-amd64-3.7/Release/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_39adc.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine versión 15.7.180.61344 para .NET Framework
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+Compilación iniciada a las 21/11/2018 9:18:20.
+Proyecto "C:\Users\Artelnics2018\Documents\neural-designer\opennn\pybind\opennn\build\temp.win-amd64-3.7\Release\CMakeFiles\CMakeTmp\cmTC_39adc.vcxproj" en nodo 1 (destinos predeterminados).
+PrepareForBuild:
+  Creando directorio "cmTC_39adc.dir\Debug\".
+  Creando directorio "C:\Users\Artelnics2018\Documents\neural-designer\opennn\pybind\opennn\build\temp.win-amd64-3.7\Release\CMakeFiles\CMakeTmp\Debug\".
+  Creando directorio "cmTC_39adc.dir\Debug\cmTC_39adc.tlog\".
+InitializeBuildStatus:
+  Se creará "cmTC_39adc.dir\Debug\cmTC_39adc.tlog\unsuccessfulbuild" porque se especificó "AlwaysCreate".
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428\bin\HostX86\x64\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D "VERSION_INFO=\"0.0.1\"" /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_39adc.dir\Debug\\" /Fd"cmTC_39adc.dir\Debug\vc141.pdb" /Gd /TP /FC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCXXCompilerABI.cpp"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.14.26433 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D "VERSION_INFO=\"0.0.1\"" /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_39adc.dir\Debug\\" /Fd"cmTC_39adc.dir\Debug\vc141.pdb" /Gd /TP /FC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCXXCompilerABI.cpp"
+  CMakeCXXCompilerABI.cpp
+  
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428\bin\HostX86\x64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Artelnics2018\Documents\neural-designer\opennn\pybind\opennn\build\temp.win-amd64-3.7\Release\CMakeFiles\CMakeTmp\Debug\cmTC_39adc.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Artelnics2018/Documents/neural-designer/opennn/pybind/opennn/build/temp.win-amd64-3.7/Release/CMakeFiles/CMakeTmp/Debug/cmTC_39adc.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Artelnics2018/Documents/neural-designer/opennn/pybind/opennn/build/temp.win-amd64-3.7/Release/CMakeFiles/CMakeTmp/Debug/cmTC_39adc.lib" /MACHINE:X64  /machine:x64 cmTC_39adc.dir\Debug\CMakeCXXCompilerABI.obj
+  cmTC_39adc.vcxproj -> C:\Users\Artelnics2018\Documents\neural-designer\opennn\pybind\opennn\build\temp.win-amd64-3.7\Release\CMakeFiles\CMakeTmp\Debug\cmTC_39adc.exe
+FinalizeBuildStatus:
+  Se eliminará el archivo "cmTC_39adc.dir\Debug\cmTC_39adc.tlog\unsuccessfulbuild".
+  Aplicando tarea Touch a "cmTC_39adc.dir\Debug\cmTC_39adc.tlog\cmTC_39adc.lastbuildstate".
+Compilación del proyecto terminada "C:\Users\Artelnics2018\Documents\neural-designer\opennn\pybind\opennn\build\temp.win-amd64-3.7\Release\CMakeFiles\CMakeTmp\cmTC_39adc.vcxproj" (destinos predeterminados).
+
+Compilación correcta.
+    0 Advertencia(s)
+    0 Errores
+
+Tiempo transcurrido 00:00:00.85
+
+
+
+
+Detecting CXX [] compiler features compiled with the following output:
+Change Dir: C:/Users/Artelnics2018/Documents/neural-designer/opennn/pybind/opennn/build/temp.win-amd64-3.7/Release/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_9e305.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine versión 15.7.180.61344 para .NET Framework
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+Compilación iniciada a las 21/11/2018 9:18:21.
+Proyecto "C:\Users\Artelnics2018\Documents\neural-designer\opennn\pybind\opennn\build\temp.win-amd64-3.7\Release\CMakeFiles\CMakeTmp\cmTC_9e305.vcxproj" en nodo 1 (destinos predeterminados).
+PrepareForBuild:
+  Creando directorio "cmTC_9e305.dir\Debug\".
+  Creando directorio "C:\Users\Artelnics2018\Documents\neural-designer\opennn\pybind\opennn\build\temp.win-amd64-3.7\Release\CMakeFiles\CMakeTmp\Debug\".
+  Creando directorio "cmTC_9e305.dir\Debug\cmTC_9e305.tlog\".
+InitializeBuildStatus:
+  Se creará "cmTC_9e305.dir\Debug\cmTC_9e305.tlog\unsuccessfulbuild" porque se especificó "AlwaysCreate".
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428\bin\HostX86\x64\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D "VERSION_INFO=\"0.0.1\"" /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_9e305.dir\Debug\\" /Fd"cmTC_9e305.dir\Debug\vc141.pdb" /Gd /TP /FC /errorReport:queue "C:\Users\Artelnics2018\Documents\neural-designer\opennn\pybind\opennn\build\temp.win-amd64-3.7\Release\CMakeFiles\feature_tests.cxx"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.14.26433 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D "VERSION_INFO=\"0.0.1\"" /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_9e305.dir\Debug\\" /Fd"cmTC_9e305.dir\Debug\vc141.pdb" /Gd /TP /FC /errorReport:queue "C:\Users\Artelnics2018\Documents\neural-designer\opennn\pybind\opennn\build\temp.win-amd64-3.7\Release\CMakeFiles\feature_tests.cxx"
+  feature_tests.cxx
+  
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428\bin\HostX86\x64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Artelnics2018\Documents\neural-designer\opennn\pybind\opennn\build\temp.win-amd64-3.7\Release\CMakeFiles\CMakeTmp\Debug\cmTC_9e305.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Artelnics2018/Documents/neural-designer/opennn/pybind/opennn/build/temp.win-amd64-3.7/Release/CMakeFiles/CMakeTmp/Debug/cmTC_9e305.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Artelnics2018/Documents/neural-designer/opennn/pybind/opennn/build/temp.win-amd64-3.7/Release/CMakeFiles/CMakeTmp/Debug/cmTC_9e305.lib" /MACHINE:X64  /machine:x64 cmTC_9e305.dir\Debug\feature_tests.obj
+  cmTC_9e305.vcxproj -> C:\Users\Artelnics2018\Documents\neural-designer\opennn\pybind\opennn\build\temp.win-amd64-3.7\Release\CMakeFiles\CMakeTmp\Debug\cmTC_9e305.exe
+FinalizeBuildStatus:
+  Se eliminará el archivo "cmTC_9e305.dir\Debug\cmTC_9e305.tlog\unsuccessfulbuild".
+  Aplicando tarea Touch a "cmTC_9e305.dir\Debug\cmTC_9e305.tlog\cmTC_9e305.lastbuildstate".
+Compilación del proyecto terminada "C:\Users\Artelnics2018\Documents\neural-designer\opennn\pybind\opennn\build\temp.win-amd64-3.7\Release\CMakeFiles\CMakeTmp\cmTC_9e305.vcxproj" (destinos predeterminados).
+
+Compilación correcta.
+    0 Advertencia(s)
+    0 Errores
+
+Tiempo transcurrido 00:00:00.74
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+Performing C++ SOURCE FILE Test HAS_MSVC_GL_LTCG succeeded with the following output:
+Change Dir: C:/Users/Artelnics2018/Documents/neural-designer/opennn/pybind/opennn/build/temp.win-amd64-3.7/Release/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_cd57d.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine versión 15.7.180.61344 para .NET Framework
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+Compilación iniciada a las 21/11/2018 9:18:22.
+Proyecto "C:\Users\Artelnics2018\Documents\neural-designer\opennn\pybind\opennn\build\temp.win-amd64-3.7\Release\CMakeFiles\CMakeTmp\cmTC_cd57d.vcxproj" en nodo 1 (destinos predeterminados).
+PrepareForBuild:
+  Creando directorio "cmTC_cd57d.dir\Debug\".
+  Creando directorio "C:\Users\Artelnics2018\Documents\neural-designer\opennn\pybind\opennn\build\temp.win-amd64-3.7\Release\CMakeFiles\CMakeTmp\Debug\".
+  Creando directorio "cmTC_cd57d.dir\Debug\cmTC_cd57d.tlog\".
+InitializeBuildStatus:
+  Se creará "cmTC_cd57d.dir\Debug\cmTC_cd57d.tlog\unsuccessfulbuild" porque se especificó "AlwaysCreate".
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428\bin\HostX86\x64\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /GL /D "VERSION_INFO=\"0.0.1\"" /D WIN32 /D _WINDOWS /D HAS_MSVC_GL_LTCG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_cd57d.dir\Debug\\" /Fd"cmTC_cd57d.dir\Debug\vc141.pdb" /Gd /TP /FC /errorReport:queue "C:\Users\Artelnics2018\Documents\neural-designer\opennn\pybind\opennn\build\temp.win-amd64-3.7\Release\CMakeFiles\CMakeTmp\src.cxx"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.14.26433 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /GL /D "VERSION_INFO=\"0.0.1\"" /D WIN32 /D _WINDOWS /D HAS_MSVC_GL_LTCG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_cd57d.dir\Debug\\" /Fd"cmTC_cd57d.dir\Debug\vc141.pdb" /Gd /TP /FC /errorReport:queue "C:\Users\Artelnics2018\Documents\neural-designer\opennn\pybind\opennn\build\temp.win-amd64-3.7\Release\CMakeFiles\CMakeTmp\src.cxx"
+  src.cxx
+  
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428\bin\HostX86\x64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Artelnics2018\Documents\neural-designer\opennn\pybind\opennn\build\temp.win-amd64-3.7\Release\CMakeFiles\CMakeTmp\Debug\cmTC_cd57d.exe" /INCREMENTAL /NOLOGO "-LTCG" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Artelnics2018/Documents/neural-designer/opennn/pybind/opennn/build/temp.win-amd64-3.7/Release/CMakeFiles/CMakeTmp/Debug/cmTC_cd57d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Artelnics2018/Documents/neural-designer/opennn/pybind/opennn/build/temp.win-amd64-3.7/Release/CMakeFiles/CMakeTmp/Debug/cmTC_cd57d.lib" /MACHINE:X64  /machine:x64 cmTC_cd57d.dir\Debug\src.obj
+LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/LTCG' specification [C:\Users\Artelnics2018\Documents\neural-designer\opennn\pybind\opennn\build\temp.win-amd64-3.7\Release\CMakeFiles\CMakeTmp\cmTC_cd57d.vcxproj]
+  Generating code
+  Finished generating code
+  cmTC_cd57d.vcxproj -> C:\Users\Artelnics2018\Documents\neural-designer\opennn\pybind\opennn\build\temp.win-amd64-3.7\Release\CMakeFiles\CMakeTmp\Debug\cmTC_cd57d.exe
+FinalizeBuildStatus:
+  Se eliminará el archivo "cmTC_cd57d.dir\Debug\cmTC_cd57d.tlog\unsuccessfulbuild".
+  Aplicando tarea Touch a "cmTC_cd57d.dir\Debug\cmTC_cd57d.tlog\cmTC_cd57d.lastbuildstate".
+Compilación del proyecto terminada "C:\Users\Artelnics2018\Documents\neural-designer\opennn\pybind\opennn\build\temp.win-amd64-3.7\Release\CMakeFiles\CMakeTmp\cmTC_cd57d.vcxproj" (destinos predeterminados).
+
+Compilación correcta.
+
+"C:\Users\Artelnics2018\Documents\neural-designer\opennn\pybind\opennn\build\temp.win-amd64-3.7\Release\CMakeFiles\CMakeTmp\cmTC_cd57d.vcxproj" (destino predeterminado) (1) ->
+(Link destino) -> 
+  LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/LTCG' specification [C:\Users\Artelnics2018\Documents\neural-designer\opennn\pybind\opennn\build\temp.win-amd64-3.7\Release\CMakeFiles\CMakeTmp\cmTC_cd57d.vcxproj]
+
+    1 Advertencia(s)
+    0 Errores
+
+Tiempo transcurrido 00:00:00.83
+
+Source file was:
+int main() { return 0; }

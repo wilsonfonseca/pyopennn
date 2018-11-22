@@ -1,0 +1,397 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{6332BCBB-498C-3F14-981E-6ABD5205E447}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>opennn</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Artelnics2018\Documents\neural-designer\opennn\pybind\opennn\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">opennn.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">opennn.cp37-win_amd64</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.pyd</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Artelnics2018\Documents\neural-designer\opennn\pybind\opennn\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">opennn.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">opennn.cp37-win_amd64</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.pyd</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Artelnics2018\Documents\neural-designer\opennn\pybind\opennn\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">opennn.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">opennn.cp37-win_amd64</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.pyd</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Artelnics2018\Documents\neural-designer\opennn\pybind\opennn\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">opennn.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">opennn.cp37-win_amd64</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.pyd</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Artelnics2018\Documents\neural-designer\opennn\pybind\opennn\pybind11\include;C:\ProgramData\Anaconda3\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>VERSION_INFO="0.0.1";WIN32;_WINDOWS;CMAKE_INTDIR="Debug";opennn_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;VERSION_INFO=\"0.0.1\";_WINDOWS;CMAKE_INTDIR=\"Debug\";opennn_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Artelnics2018\Documents\neural-designer\opennn\pybind\opennn\pybind11\include;C:\ProgramData\Anaconda3\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Artelnics2018\Documents\neural-designer\opennn\pybind\opennn\pybind11\include;C:\ProgramData\Anaconda3\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\ProgramData\Anaconda3\libs\Python37.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Artelnics2018/Documents/neural-designer/opennn/pybind/opennn/build/temp.win-amd64-3.7/Release/Debug/opennn.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Artelnics2018/Documents/neural-designer/opennn/pybind/opennn/Debug/opennn.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Artelnics2018\Documents\neural-designer\opennn\pybind\opennn\pybind11\include;C:\ProgramData\Anaconda3\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <WholeProgramOptimization>true</WholeProgramOptimization>
+      <PreprocessorDefinitions>VERSION_INFO="0.0.1";WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release";opennn_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;VERSION_INFO=\"0.0.1\";_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\";opennn_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Artelnics2018\Documents\neural-designer\opennn\pybind\opennn\pybind11\include;C:\ProgramData\Anaconda3\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Artelnics2018\Documents\neural-designer\opennn\pybind\opennn\pybind11\include;C:\ProgramData\Anaconda3\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\ProgramData\Anaconda3\libs\Python37.lib;-LTCG;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Artelnics2018/Documents/neural-designer/opennn/pybind/opennn/build/temp.win-amd64-3.7/Release/Release/opennn.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Artelnics2018/Documents/neural-designer/opennn/pybind/opennn/opennn.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Artelnics2018\Documents\neural-designer\opennn\pybind\opennn\pybind11\include;C:\ProgramData\Anaconda3\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <WholeProgramOptimization>true</WholeProgramOptimization>
+      <PreprocessorDefinitions>VERSION_INFO="0.0.1";WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel";opennn_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;VERSION_INFO=\"0.0.1\";_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\";opennn_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Artelnics2018\Documents\neural-designer\opennn\pybind\opennn\pybind11\include;C:\ProgramData\Anaconda3\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Artelnics2018\Documents\neural-designer\opennn\pybind\opennn\pybind11\include;C:\ProgramData\Anaconda3\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\ProgramData\Anaconda3\libs\Python37.lib;-LTCG;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Artelnics2018/Documents/neural-designer/opennn/pybind/opennn/build/temp.win-amd64-3.7/Release/MinSizeRel/opennn.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Artelnics2018/Documents/neural-designer/opennn/pybind/opennn/MinSizeRel/opennn.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Artelnics2018\Documents\neural-designer\opennn\pybind\opennn\pybind11\include;C:\ProgramData\Anaconda3\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <WholeProgramOptimization>true</WholeProgramOptimization>
+      <PreprocessorDefinitions>VERSION_INFO="0.0.1";WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo";opennn_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;VERSION_INFO=\"0.0.1\";_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\";opennn_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Artelnics2018\Documents\neural-designer\opennn\pybind\opennn\pybind11\include;C:\ProgramData\Anaconda3\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Artelnics2018\Documents\neural-designer\opennn\pybind\opennn\pybind11\include;C:\ProgramData\Anaconda3\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\ProgramData\Anaconda3\libs\Python37.lib;-LTCG;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Artelnics2018/Documents/neural-designer/opennn/pybind/opennn/build/temp.win-amd64-3.7/Release/RelWithDebInfo/opennn.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Artelnics2018/Documents/neural-designer/opennn/pybind/opennn/RelWithDebInfo/opennn.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Artelnics2018\Documents\neural-designer\opennn\pybind\opennn\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Artelnics2018/Documents/neural-designer/opennn/pybind/opennn/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/Artelnics2018/Documents/neural-designer/opennn/pybind/opennn -BC:/Users/Artelnics2018/Documents/neural-designer/opennn/pybind/opennn/build/temp.win-amd64-3.7/Release --check-stamp-file C:/Users/Artelnics2018/Documents/neural-designer/opennn/pybind/opennn/build/temp.win-amd64-3.7/Release/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/Artelnics2018/Documents/neural-designer/opennn/pybind/opennn/CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\WindowsPaths.cmake;C:\Users\Artelnics2018\Documents\neural-designer\opennn\pybind\opennn\CMakeLists.txt;C:\Users\Artelnics2018\Documents\neural-designer\opennn\pybind\opennn\build\temp.win-amd64-3.7\Release\CMakeFiles\3.12.3\CMakeCCompiler.cmake;C:\Users\Artelnics2018\Documents\neural-designer\opennn\pybind\opennn\build\temp.win-amd64-3.7\Release\CMakeFiles\3.12.3\CMakeCXXCompiler.cmake;C:\Users\Artelnics2018\Documents\neural-designer\opennn\pybind\opennn\build\temp.win-amd64-3.7\Release\CMakeFiles\3.12.3\CMakeRCCompiler.cmake;C:\Users\Artelnics2018\Documents\neural-designer\opennn\pybind\opennn\build\temp.win-amd64-3.7\Release\CMakeFiles\3.12.3\CMakeSystem.cmake;C:\Users\Artelnics2018\Documents\neural-designer\opennn\pybind\opennn\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Artelnics2018\Documents\neural-designer\opennn\pybind\opennn\build\temp.win-amd64-3.7\Release\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Artelnics2018/Documents/neural-designer/opennn/pybind/opennn/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/Artelnics2018/Documents/neural-designer/opennn/pybind/opennn -BC:/Users/Artelnics2018/Documents/neural-designer/opennn/pybind/opennn/build/temp.win-amd64-3.7/Release --check-stamp-file C:/Users/Artelnics2018/Documents/neural-designer/opennn/pybind/opennn/build/temp.win-amd64-3.7/Release/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/Artelnics2018/Documents/neural-designer/opennn/pybind/opennn/CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\WindowsPaths.cmake;C:\Users\Artelnics2018\Documents\neural-designer\opennn\pybind\opennn\CMakeLists.txt;C:\Users\Artelnics2018\Documents\neural-designer\opennn\pybind\opennn\build\temp.win-amd64-3.7\Release\CMakeFiles\3.12.3\CMakeCCompiler.cmake;C:\Users\Artelnics2018\Documents\neural-designer\opennn\pybind\opennn\build\temp.win-amd64-3.7\Release\CMakeFiles\3.12.3\CMakeCXXCompiler.cmake;C:\Users\Artelnics2018\Documents\neural-designer\opennn\pybind\opennn\build\temp.win-amd64-3.7\Release\CMakeFiles\3.12.3\CMakeRCCompiler.cmake;C:\Users\Artelnics2018\Documents\neural-designer\opennn\pybind\opennn\build\temp.win-amd64-3.7\Release\CMakeFiles\3.12.3\CMakeSystem.cmake;C:\Users\Artelnics2018\Documents\neural-designer\opennn\pybind\opennn\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Artelnics2018\Documents\neural-designer\opennn\pybind\opennn\build\temp.win-amd64-3.7\Release\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/Artelnics2018/Documents/neural-designer/opennn/pybind/opennn/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/Artelnics2018/Documents/neural-designer/opennn/pybind/opennn -BC:/Users/Artelnics2018/Documents/neural-designer/opennn/pybind/opennn/build/temp.win-amd64-3.7/Release --check-stamp-file C:/Users/Artelnics2018/Documents/neural-designer/opennn/pybind/opennn/build/temp.win-amd64-3.7/Release/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/Artelnics2018/Documents/neural-designer/opennn/pybind/opennn/CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\WindowsPaths.cmake;C:\Users\Artelnics2018\Documents\neural-designer\opennn\pybind\opennn\CMakeLists.txt;C:\Users\Artelnics2018\Documents\neural-designer\opennn\pybind\opennn\build\temp.win-amd64-3.7\Release\CMakeFiles\3.12.3\CMakeCCompiler.cmake;C:\Users\Artelnics2018\Documents\neural-designer\opennn\pybind\opennn\build\temp.win-amd64-3.7\Release\CMakeFiles\3.12.3\CMakeCXXCompiler.cmake;C:\Users\Artelnics2018\Documents\neural-designer\opennn\pybind\opennn\build\temp.win-amd64-3.7\Release\CMakeFiles\3.12.3\CMakeRCCompiler.cmake;C:\Users\Artelnics2018\Documents\neural-designer\opennn\pybind\opennn\build\temp.win-amd64-3.7\Release\CMakeFiles\3.12.3\CMakeSystem.cmake;C:\Users\Artelnics2018\Documents\neural-designer\opennn\pybind\opennn\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Artelnics2018\Documents\neural-designer\opennn\pybind\opennn\build\temp.win-amd64-3.7\Release\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/Artelnics2018/Documents/neural-designer/opennn/pybind/opennn/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/Artelnics2018/Documents/neural-designer/opennn/pybind/opennn -BC:/Users/Artelnics2018/Documents/neural-designer/opennn/pybind/opennn/build/temp.win-amd64-3.7/Release --check-stamp-file C:/Users/Artelnics2018/Documents/neural-designer/opennn/pybind/opennn/build/temp.win-amd64-3.7/Release/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/Artelnics2018/Documents/neural-designer/opennn/pybind/opennn/CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\WindowsPaths.cmake;C:\Users\Artelnics2018\Documents\neural-designer\opennn\pybind\opennn\CMakeLists.txt;C:\Users\Artelnics2018\Documents\neural-designer\opennn\pybind\opennn\build\temp.win-amd64-3.7\Release\CMakeFiles\3.12.3\CMakeCCompiler.cmake;C:\Users\Artelnics2018\Documents\neural-designer\opennn\pybind\opennn\build\temp.win-amd64-3.7\Release\CMakeFiles\3.12.3\CMakeCXXCompiler.cmake;C:\Users\Artelnics2018\Documents\neural-designer\opennn\pybind\opennn\build\temp.win-amd64-3.7\Release\CMakeFiles\3.12.3\CMakeRCCompiler.cmake;C:\Users\Artelnics2018\Documents\neural-designer\opennn\pybind\opennn\build\temp.win-amd64-3.7\Release\CMakeFiles\3.12.3\CMakeSystem.cmake;C:\Users\Artelnics2018\Documents\neural-designer\opennn\pybind\opennn\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Artelnics2018\Documents\neural-designer\opennn\pybind\opennn\build\temp.win-amd64-3.7\Release\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Artelnics2018\Documents\neural-designer\opennn\pybind\opennn\pybind.cpp" />
+    <ClCompile Include="C:\Users\Artelnics2018\Documents\neural-designer\opennn\opennn\variables.cpp" />
+    <ClCompile Include="C:\Users\Artelnics2018\Documents\neural-designer\opennn\opennn\instances.cpp" />
+    <ClCompile Include="C:\Users\Artelnics2018\Documents\neural-designer\opennn\opennn\missing_values.cpp" />
+    <ClCompile Include="C:\Users\Artelnics2018\Documents\neural-designer\opennn\opennn\data_set.cpp" />
+    <ClCompile Include="C:\Users\Artelnics2018\Documents\neural-designer\opennn\opennn\inputs.cpp" />
+    <ClCompile Include="C:\Users\Artelnics2018\Documents\neural-designer\opennn\opennn\outputs.cpp" />
+    <ClCompile Include="C:\Users\Artelnics2018\Documents\neural-designer\opennn\opennn\unscaling_layer.cpp" />
+    <ClCompile Include="C:\Users\Artelnics2018\Documents\neural-designer\opennn\opennn\scaling_layer.cpp" />
+    <ClCompile Include="C:\Users\Artelnics2018\Documents\neural-designer\opennn\opennn\inputs_trending_layer.cpp" />
+    <ClCompile Include="C:\Users\Artelnics2018\Documents\neural-designer\opennn\opennn\outputs_trending_layer.cpp" />
+    <ClCompile Include="C:\Users\Artelnics2018\Documents\neural-designer\opennn\opennn\probabilistic_layer.cpp" />
+    <ClCompile Include="C:\Users\Artelnics2018\Documents\neural-designer\opennn\opennn\perceptron_layer.cpp" />
+    <ClCompile Include="C:\Users\Artelnics2018\Documents\neural-designer\opennn\opennn\perceptron.cpp" />
+    <ClCompile Include="C:\Users\Artelnics2018\Documents\neural-designer\opennn\opennn\neural_network.cpp" />
+    <ClCompile Include="C:\Users\Artelnics2018\Documents\neural-designer\opennn\opennn\multilayer_perceptron.cpp" />
+    <ClCompile Include="C:\Users\Artelnics2018\Documents\neural-designer\opennn\opennn\bounding_layer.cpp" />
+    <ClCompile Include="C:\Users\Artelnics2018\Documents\neural-designer\opennn\opennn\sum_squared_error.cpp" />
+    <ClCompile Include="C:\Users\Artelnics2018\Documents\neural-designer\opennn\opennn\root_mean_squared_error.cpp" />
+    <ClCompile Include="C:\Users\Artelnics2018\Documents\neural-designer\opennn\opennn\loss_index.cpp" />
+    <ClCompile Include="C:\Users\Artelnics2018\Documents\neural-designer\opennn\opennn\normalized_squared_error.cpp" />
+    <ClCompile Include="C:\Users\Artelnics2018\Documents\neural-designer\opennn\opennn\minkowski_error.cpp" />
+    <ClCompile Include="C:\Users\Artelnics2018\Documents\neural-designer\opennn\opennn\mean_squared_error.cpp" />
+    <ClCompile Include="C:\Users\Artelnics2018\Documents\neural-designer\opennn\opennn\weighted_squared_error.cpp" />
+    <ClCompile Include="C:\Users\Artelnics2018\Documents\neural-designer\opennn\opennn\cross_entropy_error.cpp" />
+    <ClCompile Include="C:\Users\Artelnics2018\Documents\neural-designer\opennn\opennn\training_strategy.cpp" />
+    <ClCompile Include="C:\Users\Artelnics2018\Documents\neural-designer\opennn\opennn\training_algorithm.cpp" />
+    <ClCompile Include="C:\Users\Artelnics2018\Documents\neural-designer\opennn\opennn\training_rate_algorithm.cpp" />
+    <ClCompile Include="C:\Users\Artelnics2018\Documents\neural-designer\opennn\opennn\random_search.cpp" />
+    <ClCompile Include="C:\Users\Artelnics2018\Documents\neural-designer\opennn\opennn\quasi_newton_method.cpp" />
+    <ClCompile Include="C:\Users\Artelnics2018\Documents\neural-designer\opennn\opennn\levenberg_marquardt_algorithm.cpp" />
+    <ClCompile Include="C:\Users\Artelnics2018\Documents\neural-designer\opennn\opennn\gradient_descent.cpp" />
+    <ClCompile Include="C:\Users\Artelnics2018\Documents\neural-designer\opennn\opennn\evolutionary_algorithm.cpp" />
+    <ClCompile Include="C:\Users\Artelnics2018\Documents\neural-designer\opennn\opennn\conjugate_gradient.cpp" />
+    <ClCompile Include="C:\Users\Artelnics2018\Documents\neural-designer\opennn\opennn\model_selection.cpp" />
+    <ClCompile Include="C:\Users\Artelnics2018\Documents\neural-designer\opennn\opennn\order_selection_algorithm.cpp" />
+    <ClCompile Include="C:\Users\Artelnics2018\Documents\neural-designer\opennn\opennn\incremental_order.cpp" />
+    <ClCompile Include="C:\Users\Artelnics2018\Documents\neural-designer\opennn\opennn\golden_section_order.cpp" />
+    <ClCompile Include="C:\Users\Artelnics2018\Documents\neural-designer\opennn\opennn\simulated_annealing_order.cpp" />
+    <ClCompile Include="C:\Users\Artelnics2018\Documents\neural-designer\opennn\opennn\ant_colony_optimization.cpp" />
+    <ClCompile Include="C:\Users\Artelnics2018\Documents\neural-designer\opennn\opennn\inputs_selection_algorithm.cpp" />
+    <ClCompile Include="C:\Users\Artelnics2018\Documents\neural-designer\opennn\opennn\growing_inputs.cpp" />
+    <ClCompile Include="C:\Users\Artelnics2018\Documents\neural-designer\opennn\opennn\pruning_inputs.cpp" />
+    <ClCompile Include="C:\Users\Artelnics2018\Documents\neural-designer\opennn\opennn\genetic_algorithm.cpp" />
+    <ClCompile Include="C:\Users\Artelnics2018\Documents\neural-designer\opennn\opennn\testing_analysis.cpp" />
+    <ClCompile Include="C:\Users\Artelnics2018\Documents\neural-designer\opennn\opennn\numerical_integration.cpp" />
+    <ClCompile Include="C:\Users\Artelnics2018\Documents\neural-designer\opennn\opennn\numerical_differentiation.cpp" />
+    <ClCompile Include="C:\Users\Artelnics2018\Documents\neural-designer\opennn\opennn\principal_components_layer.cpp" />
+    <ClCompile Include="C:\Users\Artelnics2018\Documents\neural-designer\opennn\opennn\threshold_selection_algorithm.cpp" />
+    <ClCompile Include="C:\Users\Artelnics2018\Documents\neural-designer\opennn\opennn\f1_score_optimization_threshold.cpp" />
+    <ClCompile Include="C:\Users\Artelnics2018\Documents\neural-designer\opennn\opennn\matthew_correlation_optimization_threshold.cpp" />
+    <ClCompile Include="C:\Users\Artelnics2018\Documents\neural-designer\opennn\opennn\youden_index_optimization_threshold.cpp" />
+    <ClCompile Include="C:\Users\Artelnics2018\Documents\neural-designer\opennn\opennn\kappa_coefficient_optimization_threshold.cpp" />
+    <ClCompile Include="C:\Users\Artelnics2018\Documents\neural-designer\opennn\opennn\roc_curve_optimization_threshold.cpp" />
+    <ClCompile Include="C:\Users\Artelnics2018\Documents\neural-designer\opennn\opennn\selective_pruning.cpp" />
+    <ClCompile Include="C:\Users\Artelnics2018\Documents\neural-designer\opennn\opennn\file_utilities.cpp" />
+    <ClCompile Include="C:\Users\Artelnics2018\Documents\neural-designer\opennn\opennn\association_rules.cpp" />
+    <ClCompile Include="C:\Users\Artelnics2018\Documents\neural-designer\opennn\opennn\text_analytics.cpp" />
+    <ClCompile Include="C:\Users\Artelnics2018\Documents\neural-designer\opennn\opennn\tinyxml2.cpp" />
+    <ClCompile Include="C:\Users\Artelnics2018\Documents\neural-designer\opennn\opennn\correlation_analysis.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\Artelnics2018\Documents\neural-designer\opennn\pybind\opennn\build\temp.win-amd64-3.7\Release\ZERO_CHECK.vcxproj">
+      <Project>{5D677BA0-7FFC-376F-9E67-B76ABA9EDCE1}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

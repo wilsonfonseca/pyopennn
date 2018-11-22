@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: OpenNN
+Version: 0.1
+Summary: adaptation of the C ++ OpenNN library
+Home-page: https://github.com/Artelnics/pyopennn
+Author: Roberto Lopez
+Author-email: robertolopez@artelnics.com
+License: UNKNOWN
+Download-URL: https://github.com/{user_name}/pyopennn/tarball/0.1
+Description: UNKNOWN
+Keywords: testing,logging,example
+Platform: UNKNOWN
