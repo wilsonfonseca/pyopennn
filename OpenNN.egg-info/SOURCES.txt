@@ -1,8 +1,0 @@
-README.md
-setup.cfg
-setup.py
-OpenNN.egg-info/PKG-INFO
-OpenNN.egg-info/SOURCES.txt
-OpenNN.egg-info/dependency_links.txt
-OpenNN.egg-info/top_level.txt
-opennn/setup.py
