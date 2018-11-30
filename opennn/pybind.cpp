@@ -25,15 +25,15 @@
 
 // Pybind includes
 
-#include "pybind11/include/pybind11/eigen.h"
-#include "pybind11/include/pybind11/operators.h"
-#include "pybind11/include/pybind11/pybind11.h"
-#include "pybind11/include/pybind11/pytypes.h"
-#include "pybind11/include/pybind11/stl.h"
+#include "../pybind11/include/pybind11/eigen.h"
+#include "../pybind11/include/pybind11/operators.h"
+#include "../pybind11/include/pybind11/pybind11.h"
+#include "../pybind11/include/pybind11/pytypes.h"
+#include "../pybind11/include/pybind11/stl.h"
 
 // OpenNN includes
 
-#include "../../opennn/opennn.h"
+#include "./opennn/opennn.h"
 
 // Namespaces
 

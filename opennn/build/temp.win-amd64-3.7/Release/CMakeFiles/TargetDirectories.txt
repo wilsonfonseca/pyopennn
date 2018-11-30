@@ -1,4 +1,0 @@
-C:/Users/Artelnics2018/Documents/neural-designer/opennn/pybind/opennn/build/temp.win-amd64-3.7/Release/CMakeFiles/opennn.dir
-C:/Users/Artelnics2018/Documents/neural-designer/opennn/pybind/opennn/build/temp.win-amd64-3.7/Release/CMakeFiles/ALL_BUILD.dir
-C:/Users/Artelnics2018/Documents/neural-designer/opennn/pybind/opennn/build/temp.win-amd64-3.7/Release/CMakeFiles/ZERO_CHECK.dir
-C:/Users/Artelnics2018/Documents/neural-designer/opennn/pybind/opennn/build/temp.win-amd64-3.7/Release/pybind11/CMakeFiles/ALL_BUILD.dir

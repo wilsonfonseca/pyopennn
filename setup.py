@@ -59,12 +59,17 @@ class CMakeBuild(build_ext):
 setup(
   name = 'OpenNN',
   packages = ['opennn'], # this must be the same as the name above
-  version = '0.1',
+  version = '0.32',
+  include_package_data=True,
   description = 'adaptation of the C ++ OpenNN library',
-  author = 'Roberto Lopez',
-  author_email = 'robertolopez@artelnics.com',
-  url = 'https://github.com/Artelnics/pyopennn', # use the URL to the github repo
-  download_url = 'https://github.com/{user_name}/pyopennn/tarball/0.1',
-  keywords = ['testing', 'logging', 'example'],
-  classifiers = ["Programming Language :: Python :: 3", "License :: OSI Approved :: GNU General Public License v3 (GPLv3)", "Development Status :: 4 - Beta", "Intended Audience :: Developers", "Operating System :: OS Independent"],
+  author = 'Artificial Intelligence Techchiques SL (Artelnics)',
+  author_email = 'artelnics@artelnics.com',
+  url = 'https://github.com/Artelnics/pyopennn',
+  download_url = 'https://github.com/Artelnics/pyopennn/tarball/0.1',
+  keywords = ['neural', 'analytics'],
+  classifiers = ["Programming Language :: Python :: 3", "License :: OSI Approved :: GNU General Public License v3 (GPLv3)", "Development Status :: 4 - Beta", "Intended Audience :: Developers", "Operating System :: OS Independent", "Topic :: Scientific/Engineering :: Artificial Intelligence"],
+  ext_modules=[CMakeExtension('opennn')],
+  cmdclass=dict(build_ext=CMakeBuild),
+  zip_safe=False,
+  install_requires=['CMake']
 )
